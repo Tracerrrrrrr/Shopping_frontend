@@ -1,0 +1,36 @@
+.Mid-upper
+{
+    display: flex;
+    justify-content: center;
+}
+.head
+{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered {
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+.dropdown
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(69, 165, 136);
+    color:black;
+font-weight: bolder;
+}
+.dropdown a{
+    text-decoration: none;
+    color:black;
+}
+.dropdown a:hover{
+    cursor: pointer;
+    color:blue;
+    font-size: 30px;
+}
